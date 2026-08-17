@@ -1,16 +1,12 @@
 # Restaurant Control Panel API — CodeIgniter 4
 
-A small but complete **PHP (CodeIgniter 4) REST API** built to serve as a work sample for
-the *"Fullstack Developer (PHP & Vue.js)"* role at Workana, whose client builds the
-**App + Control Panel** for restaurant-chain brands (McDonald's, Domino's, Pizza Hut, etc.).
+A small but complete **PHP (CodeIgniter 4) REST API** built.
 
 It models the core of that domain: **Categories** and **Menu Products**, exposed as a
 JSON REST API that a Vue.js control panel (or mobile app) can consume directly.
 
 ## Why this shape
 
-- The job description explicitly asks for a *"proyecto completo hecho con PHP y
-  CodeIgniter para mostrar como modelo"* — this is that model project.
 - Since the frontend stack is **Vue.js**, the backend is built as a **pure REST API**
   (JSON in/out), not server-rendered views — matching how a real Vue SPA / control
   panel would talk to it.
